@@ -390,7 +390,10 @@ async def generate_workout(
     user: User = Depends(require_active),
     db: Session = Depends(get_db),
 ):
-    from ai_engine import generate_workout_plan
+    try:
+        from backend.ai_engine import generate_workout_plan
+    except ImportError:
+        from ai_engine import generate_workout_plan
     plan_data = await generate_workout_plan(body.goal, body.level, body.days_per_week, body.equipment)
 
     plan = WorkoutPlan(
@@ -500,7 +503,10 @@ async def generate_meal_plan(
     body: MealPlanIn,
     user: User = Depends(require_active),
 ):
-    from ai_engine import generate_meal_plan as ai_meal_plan
+    try:
+        from backend.ai_engine import generate_meal_plan as ai_meal_plan
+    except ImportError:
+        from ai_engine import generate_meal_plan as ai_meal_plan
     plan = await ai_meal_plan(body.calories_target, body.protein_target, body.preferences)
     return plan
 
