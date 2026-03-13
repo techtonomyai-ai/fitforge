@@ -274,6 +274,11 @@ async def health():
 
 @app.get("/")
 async def root():
+    from pathlib import Path
+    index = Path(__file__).parent.parent / "frontend" / "index.html"
+    from fastapi.responses import FileResponse
+    if index.exists():
+        return FileResponse(str(index))
     return {"message": "FitForge API is running", "version": "1.0.0"}
 
 @app.post("/register", tags=["auth"])
