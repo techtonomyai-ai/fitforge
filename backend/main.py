@@ -268,6 +268,14 @@ async def startup():
 
 
 # ─── Auth endpoints ───────────────────────────────────────────────────────────
+@app.get("/health")
+async def health():
+    return {"status": "ok", "app": "FitForge"}
+
+@app.get("/")
+async def root():
+    return {"message": "FitForge API is running", "version": "1.0.0"}
+
 @app.post("/register", tags=["auth"])
 async def register(body: RegisterIn, db: Session = Depends(get_db)):
     if db.query(User).filter(User.email == body.email).first():
@@ -275,7 +283,7 @@ async def register(body: RegisterIn, db: Session = Depends(get_db)):
     user = User(
         email=body.email,
         hashed_password=hash_password(body.password),
-        trial_ends_at=datetime.utcnow() + timedelta(days=7),
+        trial_ends_at=datetime.utcnow() + timedelta(days=3),
         subscription="trial",
     )
     db.add(user)

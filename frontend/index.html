@@ -507,14 +507,14 @@
     <h1>Your AI Personal Trainer.<br>Built Around You.</h1>
     <p>Personalized workouts. Smart nutrition. Real results. Powered by GPT-4 and built for people who are serious about change.</p>
     <div class="hero-actions">
-      <button class="btn btn-primary" onclick="openModal('register')">Start 7-Day Free Trial</button>
+      <button class="btn btn-primary" onclick="openModal('register')">Start 3-Day Free Trial</button>
       <a href="#generator" class="btn btn-outline">Generate a Workout →</a>
     </div>
     <div class="hero-stats">
       <div class="stat-item"><div class="stat-num">50+</div><div class="stat-lbl">Exercises</div></div>
       <div class="stat-item"><div class="stat-num">AI</div><div class="stat-lbl">Generated Plans</div></div>
-      <div class="stat-item"><div class="stat-num">7-day</div><div class="stat-lbl">Free Trial</div></div>
-      <div class="stat-item"><div class="stat-num">$9.99</div><div class="stat-lbl">Per Month</div></div>
+      <div class="stat-item"><div class="stat-num">3-day</div><div class="stat-lbl">Free Trial</div></div>
+      <div class="stat-item"><div class="stat-num">$4.99</div><div class="stat-lbl">Per Month</div></div>
     </div>
   </div>
 </section>
@@ -534,7 +534,7 @@
       <div class="feature-card">
         <div class="feature-icon">🥗</div>
         <h3>Nutrition Tracking</h3>
-        <p>Log meals, track macros, and let AI generate personalized 7-day meal plans aligned with your calorie and protein targets.</p>
+        <p>Log meals, track macros, and let AI generate personalized 3-day meal plans aligned with your calorie and protein targets.</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">📈</div>
@@ -750,7 +750,7 @@
       <!-- Free Trial -->
       <div class="pricing-card">
         <h3>Free Trial</h3>
-        <div class="price">$0<span> / 7 days</span></div>
+        <div class="price">$0<span> / 3 days</span></div>
         <div class="desc">Try everything. No card needed.</div>
         <ul class="pricing-features">
           <li>AI workout generation</li>
@@ -770,7 +770,7 @@
       <div class="pricing-card featured">
         <div class="popular-badge">Most Popular</div>
         <h3>Basic</h3>
-        <div class="price">$9.99<span> / mo</span></div>
+        <div class="price">$4.99<span> / mo</span></div>
         <div class="desc">For consistent trainers ready to level up.</div>
         <ul class="pricing-features">
           <li>Everything in Free Trial</li>
@@ -789,7 +789,7 @@
       <!-- Pro -->
       <div class="pricing-card">
         <h3>Pro</h3>
-        <div class="price">$14.99<span> / mo</span></div>
+        <div class="price">$9.99<span> / mo</span></div>
         <div class="desc">For athletes who want every edge.</div>
         <ul class="pricing-features">
           <li>Everything in Basic</li>
@@ -829,7 +829,7 @@
   <div class="modal">
     <button class="modal-close" onclick="closeModal()">✕</button>
     <h2 id="modalTitle">Create Account</h2>
-    <p class="sub" id="modalSub">Start your 7-day free trial — no credit card required.</p>
+    <p class="sub" id="modalSub">Start your 3-day free trial — no credit card required.</p>
     <div class="tab-row">
       <button class="tab-btn active" id="tabRegister" onclick="switchTab('register')">Sign Up</button>
       <button class="tab-btn" id="tabLogin" onclick="switchTab('login')">Log In</button>
@@ -891,7 +891,7 @@
     document.getElementById('tabLogin').classList.toggle('active', !isReg);
     document.getElementById('modalTitle').textContent = isReg ? 'Create Account' : 'Welcome Back';
     document.getElementById('modalSub').textContent = isReg
-      ? 'Start your 7-day free trial — no credit card required.'
+      ? 'Start your 3-day free trial — no credit card required.'
       : 'Log in to your FitForge account.';
     document.getElementById('authSubmit').textContent = isReg
       ? 'Create Account & Start Trial'
@@ -934,7 +934,7 @@
       localStorage.setItem('fitforge_token', authToken);
       closeModal();
       toast(authMode === 'register'
-        ? '🎉 Welcome to FitForge! Your 7-day trial has started.'
+        ? '🎉 Welcome to FitForge! Your 3-day trial has started.'
         : '👋 Welcome back!');
     } catch (err) {
       showModalError(err.message);
