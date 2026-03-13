@@ -1,0 +1,502 @@
+[
+  {
+    "id": "exercise_001",
+    "name": "Barbell Back Squat",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings", "core"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Set barbell on rack at shoulder height. 2. Step under bar, position on upper traps. 3. Unrack and step back. 4. Feet shoulder-width apart, toes slightly out. 5. Brace core, take a deep breath. 6. Descend by pushing knees out and sitting back. 7. Lower until thighs are parallel or below. 8. Drive through heels to stand. 9. Re-rack safely.",
+    "tips": "Keep chest up and knees tracking over toes. Never let heels rise.",
+    "calories_per_minute": 8
+  },
+  {
+    "id": "exercise_002",
+    "name": "Conventional Deadlift",
+    "muscle_groups": ["hamstrings", "glutes", "lower back", "traps", "forearms"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand with feet hip-width, bar over mid-foot. 2. Hinge at hips, grip bar just outside legs. 3. Drop hips, chest up, shoulders over bar. 4. Brace core and take a breath. 5. Push floor away, keeping bar close to body. 6. Lock out hips and knees at top. 7. Hinge back down with control.",
+    "tips": "Think 'push the floor away' not 'pull the bar up'. Keep the bar dragging your shins.",
+    "calories_per_minute": 9
+  },
+  {
+    "id": "exercise_003",
+    "name": "Barbell Bench Press",
+    "muscle_groups": ["chest", "triceps", "anterior deltoid"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Lie flat on bench, eyes under bar. 2. Grip slightly wider than shoulder-width. 3. Unrack, hold bar over chest. 4. Lower to lower chest with elbows at ~45°. 5. Press back up explosively. 6. Lock out at top without flaring elbows.",
+    "tips": "Squeeze shoulder blades together and plant feet firmly. Arch slightly to protect shoulders.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_004",
+    "name": "Barbell Bent-Over Row",
+    "muscle_groups": ["lats", "rhomboids", "rear deltoid", "biceps"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Hinge forward ~45° with flat back. 2. Grip bar shoulder-width overhand. 3. Pull bar to lower sternum, leading with elbows. 4. Squeeze shoulder blades at top. 5. Lower under control.",
+    "tips": "Keep core braced and torso angle consistent. Don't use momentum — controlled pull only.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_005",
+    "name": "Pull-Up",
+    "muscle_groups": ["lats", "biceps", "rear deltoid", "core"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Hang from bar with overhand grip, slightly wider than shoulders. 2. Depress and retract shoulder blades. 3. Pull elbows down and back until chin clears bar. 4. Lower with full control to dead hang.",
+    "tips": "Avoid kipping unless training for performance. Focus on lat engagement by 'pulling elbows to hips'.",
+    "calories_per_minute": 8
+  },
+  {
+    "id": "exercise_006",
+    "name": "Dumbbell Lunge",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings", "calves"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Stand tall, dumbbells at sides. 2. Step forward with one foot. 3. Lower back knee toward floor, front knee at 90°. 4. Push through front heel to return. 5. Alternate legs each rep.",
+    "tips": "Keep torso upright — don't lean forward. Front knee stays over ankle, not past toes.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_007",
+    "name": "Push-Up",
+    "muscle_groups": ["chest", "triceps", "anterior deltoid", "core"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Start in high plank: hands slightly wider than shoulders, body straight. 2. Lower chest to floor, elbows at ~45°. 3. Push back up to full arm extension. 4. Keep core tight throughout.",
+    "tips": "Don't let hips sag or pike up. Squeeze glutes for a rigid plank position.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_008",
+    "name": "Plank",
+    "muscle_groups": ["core", "shoulders", "glutes"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Forearms on floor, elbows under shoulders. 2. Body in straight line from head to heels. 3. Squeeze core, glutes, and quads. 4. Hold for prescribed duration. 5. Breathe steadily.",
+    "tips": "Avoid holding breath. Imagine pulling your elbows toward your feet to activate abs harder.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_009",
+    "name": "Dumbbell Bicep Curl",
+    "muscle_groups": ["biceps", "forearms"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Stand with dumbbells at sides, palms forward. 2. Curl weights toward shoulders, keeping elbows at sides. 3. Squeeze biceps at top. 4. Lower slowly to full extension.",
+    "tips": "Don't swing — control the eccentric (lowering) phase for maximum growth.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_010",
+    "name": "Tricep Overhead Extension",
+    "muscle_groups": ["triceps"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Hold one dumbbell with both hands overhead, arms fully extended. 2. Bend elbows to lower weight behind head. 3. Keep upper arms vertical. 4. Extend back to top.",
+    "tips": "Keep elbows close together — don't let them flare. Full range of motion is key.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_011",
+    "name": "Dumbbell Shoulder Press",
+    "muscle_groups": ["anterior deltoid", "medial deltoid", "triceps"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Sit or stand with dumbbells at shoulder height, palms forward. 2. Press upward until arms are fully extended overhead. 3. Lower slowly back to start.",
+    "tips": "Don't arch your lower back excessively — engage core. Stop just before full lockout to keep tension.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_012",
+    "name": "Lat Pulldown",
+    "muscle_groups": ["lats", "biceps", "rear deltoid"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Sit at pulldown machine, thighs secured under pads. 2. Grip bar wider than shoulders, overhand. 3. Lean back slightly. 4. Pull bar to upper chest, leading with elbows. 5. Squeeze lats at bottom. 6. Return bar under control.",
+    "tips": "Avoid pulling behind the neck. Imagine pulling your elbows into your back pockets.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_013",
+    "name": "Leg Press",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Sit in leg press machine, feet shoulder-width on platform. 2. Release safety handles. 3. Lower platform by bending knees to ~90°. 4. Press through heels to extend. 5. Do not fully lock knees.",
+    "tips": "Higher foot placement targets glutes/hamstrings; lower placement targets quads.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_014",
+    "name": "Standing Calf Raise",
+    "muscle_groups": ["calves", "soleus"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Stand on edge of step or flat ground, feet hip-width. 2. Rise onto toes as high as possible. 3. Pause at top. 4. Lower heels below step level for full stretch.",
+    "tips": "Use a step for full ROM. Slow tempo (2-1-2) maximizes muscle activation.",
+    "calories_per_minute": 3
+  },
+  {
+    "id": "exercise_015",
+    "name": "Hip Thrust",
+    "muscle_groups": ["glutes", "hamstrings", "core"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Sit on floor with upper back against bench, barbell over hips. 2. Feet flat on floor, hip-width. 3. Drive hips up by squeezing glutes. 4. Form a straight line from shoulders to knees. 5. Lower hips back to floor.",
+    "tips": "Place a barbell pad for comfort. Chin tucked — look straight ahead, not up.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_016",
+    "name": "Face Pull",
+    "muscle_groups": ["rear deltoid", "rhomboids", "external rotators"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Set cable at face height with rope attachment. 2. Pull rope toward face, elbows high and flared. 3. Externally rotate at end: hands by ears, thumbs pointing back. 4. Return under control.",
+    "tips": "An essential shoulder health exercise. Light weight, high reps (15-25). Never go heavy.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_017",
+    "name": "Parallel Bar Dip",
+    "muscle_groups": ["triceps", "chest", "anterior deltoid"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Grip parallel bars, arms extended. 2. Lean forward slightly for chest emphasis. 3. Lower until upper arms are parallel to floor. 4. Press back to start. 5. Keep core tight throughout.",
+    "tips": "Lean forward more = more chest. Stay upright = more triceps. Don't drop too fast.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_018",
+    "name": "Incline Dumbbell Press",
+    "muscle_groups": ["upper chest", "anterior deltoid", "triceps"],
+    "equipment": "dumbbells",
+    "difficulty": "intermediate",
+    "instructions": "1. Set bench at 30-45°. Lie back with dumbbells at chest level. 2. Press upward and slightly inward. 3. Lower slowly, stretching chest at bottom. 4. Don't touch dumbbells at top to maintain tension.",
+    "tips": "30° incline hits upper chest best. Higher angles shift load to anterior delts.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_019",
+    "name": "Romanian Deadlift",
+    "muscle_groups": ["hamstrings", "glutes", "lower back"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand holding bar at hip level, overhand grip. 2. Push hips back, lowering bar along legs with flat back. 3. Feel hamstring stretch — bar reaches mid-shin. 4. Drive hips forward to stand, squeeze glutes at top.",
+    "tips": "This is a hip hinge — not a squat. Keep bar in contact with legs throughout.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_020",
+    "name": "Cable Chest Fly",
+    "muscle_groups": ["chest", "anterior deltoid"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Set cables at chest height. Stand in split stance. 2. Grip handles, arms slightly bent. 3. Bring hands together in front of chest in arcing motion. 4. Squeeze chest at peak contraction. 5. Return under control.",
+    "tips": "Maintain soft bend in elbows throughout. Focus on the squeeze, not the weight.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_021",
+    "name": "Goblet Squat",
+    "muscle_groups": ["quadriceps", "glutes", "core"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Hold dumbbell vertically at chest. 2. Feet shoulder-width, toes out. 3. Squat deep, elbows tracking inside knees at bottom. 4. Drive through heels to stand.",
+    "tips": "Great for beginners and mobility work. The front load keeps torso upright naturally.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_022",
+    "name": "Dumbbell Row",
+    "muscle_groups": ["lats", "rhomboids", "biceps"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Place one knee and hand on bench. 2. Hold dumbbell in opposite hand. 3. Pull dumbbell to hip, elbow close to body. 4. Squeeze lat at top. 5. Lower fully.",
+    "tips": "Full range of motion matters — let shoulder drop at bottom for lat stretch.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_023",
+    "name": "Resistance Band Squat",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings"],
+    "equipment": "resistance_bands",
+    "difficulty": "beginner",
+    "instructions": "1. Stand on band, feet hip-width. 2. Hold handles at shoulders. 3. Squat to parallel, keeping chest up. 4. Drive through heels to stand.",
+    "tips": "Band increases resistance at top of movement. Great for home workouts.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_024",
+    "name": "Resistance Band Pull-Apart",
+    "muscle_groups": ["rear deltoid", "rhomboids", "external rotators"],
+    "equipment": "resistance_bands",
+    "difficulty": "beginner",
+    "instructions": "1. Hold band with both hands at shoulder width, arms extended forward. 2. Pull band apart, bringing hands to sides. 3. Squeeze shoulder blades. 4. Return slowly.",
+    "tips": "Excellent warm-up or finisher for shoulder health. Keep arms straight throughout.",
+    "calories_per_minute": 3
+  },
+  {
+    "id": "exercise_025",
+    "name": "Burpee",
+    "muscle_groups": ["full body", "cardiovascular"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand, then drop hands to floor. 2. Jump or step feet back to plank. 3. Perform push-up. 4. Jump feet to hands. 5. Explode up, jump with arms overhead.",
+    "tips": "Scale by removing the push-up or the jump. Great for metabolic conditioning.",
+    "calories_per_minute": 12
+  },
+  {
+    "id": "exercise_026",
+    "name": "Mountain Climber",
+    "muscle_groups": ["core", "hip flexors", "shoulders", "cardiovascular"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Start in high plank position. 2. Drive one knee toward chest. 3. Quickly switch legs in a running motion. 4. Keep hips level — don't bounce.",
+    "tips": "Speed is secondary to form. Slow it down to feel the core work.",
+    "calories_per_minute": 10
+  },
+  {
+    "id": "exercise_027",
+    "name": "Dumbbell Lateral Raise",
+    "muscle_groups": ["medial deltoid"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Stand with dumbbells at sides. 2. Raise arms to shoulder height, leading with elbows. 3. Slight forward lean and internal rotation (thumbs slightly down). 4. Lower under control.",
+    "tips": "Use lighter weight than you think. 3-4 second lowering phase maximizes muscle stimulus.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_028",
+    "name": "Leg Curl (Machine)",
+    "muscle_groups": ["hamstrings"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Lie face down on machine. 2. Position pad above heels. 3. Curl heels toward glutes. 4. Pause at top, squeeze hamstrings. 5. Lower slowly.",
+    "tips": "Don't lift hips off the pad. Slow eccentric (lowering) phase builds more muscle.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_029",
+    "name": "Leg Extension (Machine)",
+    "muscle_groups": ["quadriceps"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Sit in machine with back against pad. 2. Position pad on lower shins. 3. Extend legs to full lockout. 4. Squeeze quads at top. 5. Lower under control.",
+    "tips": "Best used as a finisher or warm-up. Don't go too heavy — protect your knees.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_030",
+    "name": "Cable Tricep Pushdown",
+    "muscle_groups": ["triceps"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Set cable to high position with rope or bar attachment. 2. Grip attachment, elbows at sides. 3. Push down until arms are fully extended. 4. Squeeze triceps at bottom. 5. Return to 90°.",
+    "tips": "Keep elbows pinned to your sides throughout. Flaring elbows shifts work to shoulders.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_031",
+    "name": "Sumo Deadlift",
+    "muscle_groups": ["glutes", "inner thighs", "hamstrings", "lower back"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Wide stance, toes pointed out. 2. Grip bar inside legs, narrow overhand grip. 3. Chest up, hips down lower than conventional. 4. Push knees out, press floor away. 5. Lock out hips at top.",
+    "tips": "Great alternative for those with hip mobility limitations. Shorter range of motion than conventional.",
+    "calories_per_minute": 8
+  },
+  {
+    "id": "exercise_032",
+    "name": "Arnold Press",
+    "muscle_groups": ["anterior deltoid", "medial deltoid", "triceps"],
+    "equipment": "dumbbells",
+    "difficulty": "intermediate",
+    "instructions": "1. Start with dumbbells at chin level, palms facing you. 2. Press up while rotating palms forward. 3. At top, palms face forward. 4. Reverse rotation on the way down.",
+    "tips": "Named after Arnold Schwarzenegger. The rotation recruits more shoulder fibers than a standard press.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_033",
+    "name": "Hammer Curl",
+    "muscle_groups": ["biceps", "brachialis", "forearms"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Stand with dumbbells at sides, palms facing body (neutral grip). 2. Curl upward without rotating wrists. 3. Squeeze at top. 4. Lower slowly.",
+    "tips": "Neutral grip places more emphasis on the brachialis, adding arm thickness.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_034",
+    "name": "Box Jump",
+    "muscle_groups": ["quadriceps", "glutes", "calves", "cardiovascular"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand in front of box. 2. Dip into quarter squat, swing arms. 3. Explode upward, landing softly on box. 4. Land with soft knees, full foot on box. 5. Step down carefully.",
+    "tips": "Always step down — never jump down. Start with a lower box. Power, not height, is the goal.",
+    "calories_per_minute": 10
+  },
+  {
+    "id": "exercise_035",
+    "name": "Glute Bridge",
+    "muscle_groups": ["glutes", "hamstrings", "core"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Lie on back, knees bent, feet flat on floor. 2. Drive hips upward by squeezing glutes. 3. Form a straight line from shoulders to knees. 4. Hold 1-2 seconds. 5. Lower hips back down.",
+    "tips": "Bodyweight version of hip thrust. Great activation drill or standalone exercise for beginners.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_036",
+    "name": "T-Bar Row",
+    "muscle_groups": ["lats", "rhomboids", "biceps", "rear deltoid"],
+    "equipment": "gym",
+    "difficulty": "intermediate",
+    "instructions": "1. Straddle bar, hinge forward 45°. 2. Grip handles with neutral grip. 3. Pull to lower chest, leading with elbows. 4. Squeeze shoulder blades. 5. Lower under control.",
+    "tips": "Neutral grip allows heavier loads than overhand rows. Great for adding back thickness.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_037",
+    "name": "Decline Push-Up",
+    "muscle_groups": ["upper chest", "anterior deltoid", "triceps"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Place feet on elevated surface (bench or chair). 2. Hands on floor, slightly wider than shoulders. 3. Lower chest toward floor. 4. Push back up.",
+    "tips": "Elevating feet shifts emphasis to upper chest. The higher the surface, the harder it is.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_038",
+    "name": "Seated Cable Row",
+    "muscle_groups": ["lats", "rhomboids", "biceps"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Sit at cable row machine, feet on platform. 2. Grip handle, sit tall. 3. Pull handle to lower abdomen. 4. Squeeze shoulder blades. 5. Return with arms fully extended.",
+    "tips": "Don't lean back and pull — keep torso stable. Isolate the back muscles.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_039",
+    "name": "Barbell Hip Thrust",
+    "muscle_groups": ["glutes", "hamstrings"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Upper back on bench, barbell across hip crease. 2. Feet flat, knees bent at 90°. 3. Drive hips up to full extension. 4. Squeeze glutes hard at top. 5. Lower back down.",
+    "tips": "The single best glute builder. Use a thick pad. Drive through heels and upper back.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_040",
+    "name": "Dumbbell Chest Fly",
+    "muscle_groups": ["chest", "anterior deltoid"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Lie on flat bench, dumbbells over chest with soft bend in elbows. 2. Open arms in wide arc until chest stretch is felt. 3. Return to start as if hugging a barrel.",
+    "tips": "This is a stretch exercise — don't go too heavy. Feel the pec stretch at the bottom.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_041",
+    "name": "Resistance Band Deadlift",
+    "muscle_groups": ["hamstrings", "glutes", "lower back"],
+    "equipment": "resistance_bands",
+    "difficulty": "beginner",
+    "instructions": "1. Stand on band, feet hip-width. 2. Grip band at sides. 3. Hinge forward, pushing hips back. 4. Keep back flat, feel hamstring stretch. 5. Drive hips forward to stand.",
+    "tips": "Perfect for travel or home. Works same pattern as barbell deadlift.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_042",
+    "name": "Walking Lunge",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings"],
+    "equipment": "none",
+    "difficulty": "beginner",
+    "instructions": "1. Step forward with right foot. 2. Lower back knee to near floor. 3. Push off back foot, bringing it forward to next step. 4. Continue alternating for prescribed reps.",
+    "tips": "Maintain upright torso. Great for building unilateral leg strength and mobility.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_043",
+    "name": "Farmer's Carry",
+    "muscle_groups": ["forearms", "traps", "core", "calves"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Pick up heavy dumbbells. 2. Stand tall, shoulders back. 3. Walk a set distance at controlled pace. 4. Keep core braced and avoid leaning.",
+    "tips": "Go heavier than you think. Great for grip strength, traps, and full-body stability.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_044",
+    "name": "Overhead Press (Barbell)",
+    "muscle_groups": ["anterior deltoid", "medial deltoid", "triceps", "core"],
+    "equipment": "barbell",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand with barbell at collar bone level. 2. Grip just outside shoulders. 3. Press bar straight overhead, moving head back slightly. 4. Lock out fully. 5. Lower back to starting position.",
+    "tips": "The standing press is the best shoulder strength builder. Keep core tight to avoid lower back hyperextension.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_045",
+    "name": "Cable Lateral Raise",
+    "muscle_groups": ["medial deltoid"],
+    "equipment": "gym",
+    "difficulty": "beginner",
+    "instructions": "1. Set cable to low position. 2. Stand sideways to cable, grip handle with far hand. 3. Raise arm to shoulder height. 4. Lower slowly.",
+    "tips": "Cable keeps constant tension through the full range, unlike dumbbells. Excellent for shoulder width.",
+    "calories_per_minute": 4
+  },
+  {
+    "id": "exercise_046",
+    "name": "Chest-Supported Row",
+    "muscle_groups": ["rhomboids", "lats", "rear deltoid", "biceps"],
+    "equipment": "dumbbells",
+    "difficulty": "beginner",
+    "instructions": "1. Set incline bench to 45°. 2. Lie face down, hold dumbbells hanging below. 3. Row dumbbells to hip level, squeeze shoulder blades. 4. Lower under control.",
+    "tips": "Removes lower back from the equation — purely upper back work. Great for beginners.",
+    "calories_per_minute": 5
+  },
+  {
+    "id": "exercise_047",
+    "name": "Bulgarian Split Squat",
+    "muscle_groups": ["quadriceps", "glutes", "hamstrings", "balance"],
+    "equipment": "dumbbells",
+    "difficulty": "advanced",
+    "instructions": "1. Place rear foot on bench behind you. 2. Hold dumbbells at sides. 3. Lower front leg until rear knee nearly touches floor. 4. Drive through front heel to stand.",
+    "tips": "Brutal but effective. Keep torso upright. 75% of effort should come from front leg.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_048",
+    "name": "Ab Wheel Rollout",
+    "muscle_groups": ["core", "hip flexors", "lats"],
+    "equipment": "none",
+    "difficulty": "advanced",
+    "instructions": "1. Kneel with ab wheel on floor. 2. Roll forward slowly, extending body as far as possible. 3. Brace core intensely to avoid arching. 4. Pull back to start using abs and lats.",
+    "tips": "Start with partial rollouts. One of the most effective core exercises when done correctly.",
+    "calories_per_minute": 6
+  },
+  {
+    "id": "exercise_049",
+    "name": "Dips (Chest Emphasis)",
+    "muscle_groups": ["chest", "triceps", "anterior deltoid"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Grip parallel bars. 2. Lean forward significantly (~30°). 3. Lower until shoulders are below elbows. 4. Press back up with chest driving the motion.",
+    "tips": "Forward lean is critical for chest activation. Upright torso = tricep dips. Add weight when 15+ reps are easy.",
+    "calories_per_minute": 7
+  },
+  {
+    "id": "exercise_050",
+    "name": "Kettlebell Swing",
+    "muscle_groups": ["glutes", "hamstrings", "lower back", "core", "cardiovascular"],
+    "equipment": "none",
+    "difficulty": "intermediate",
+    "instructions": "1. Stand with kettlebell on floor in front. 2. Hike bell between legs with hip hinge. 3. Explosively drive hips forward, propelling bell to chest height. 4. Let bell swing back down, hip hinge again. 5. Repeat in fluid motion.",
+    "tips": "This is a hip-drive exercise — not a squat. Snap hips forward powerfully. Keep back flat throughout.",
+    "calories_per_minute": 13
+  }
+]
